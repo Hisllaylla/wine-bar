@@ -1,4 +1,4 @@
-﻿CatalogoVinhos = new List<Bebidas>
+﻿Bebidas CatalogoVinhos = new List<Bebidas>
 {
     new Bebibas { Nome = "VINHO BALLOON", Conteudo = 750, TeorAlcoolico = 13.8, TipoUva = "Malbec", Preco = 49.99, Descricao = "Harmonização: é um companheiro ideal carnes vermelhas, queijo maturados e alimentos condimentados", Pais = "Argentina"},
     new Bebibas { Nome = "VINHO CORDERO CON PIEL DE LOBO ROSE", Conteudo = 750, TeorAlcoolico = 12.5, TipoUva = "", Preco = 54.99, Descricao = "Harmonização: Carnes brancas, massas e queijos moles", Pais = "Argentina" },

@@ -4,6 +4,6 @@ public record Bebidas(string Nome, int Conteudo, double TeorAlcoolico, string Ti
 {
     public override string ToString()
     {
-        return $"{Nome} {Conteudo}ml, com teor alcoólico de {TeorAlcoolico}%, provindo de {Pais} por {Preco}BRL. Produzida principalmente pela(s) uva(s): {TipoUva}. {Descricao}.";
+        return $"Nome: {Nome}, Contéudo: {Conteudo}ml, Teor Alcoólico: {TeorAlcoolico}%, produzida principalmente pela(s) uva(s): {TipoUva} por {Preco} BRL. {Descricao}. De {Pais}";
     }
 }
