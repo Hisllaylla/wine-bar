@@ -1,4 +1,4 @@
-﻿List<Bebidas> catalogoVinhos = new List<Bebidas>
+﻿List<Bebidas> catalogoVinhos = new List<Bebidas> // adicionando contéudo na lista
 {
     new("VINHO BALLOON", 750, 13.8, "Malbec", 49.99, "Harmonização: é um companheiro ideal carnes vermelhas, queijo maturados e alimentos condimentados", "Argentina"),
     new("VINHI CORDERO CON PIEL DE LOBO ROSE", 750, 12.5, "Malbec", 54.99, "Harmonização: Carnes brancas, massas e queijos moles", "Argentina"),
@@ -14,10 +14,10 @@
     new("INHO TWO HANDS SAMANTHA'S GARDEN CLARE VALLEY SHIRAZ", 750, 13.5, "Shiraz", 769.99, "Harmonização: Churrasco, carnes de caça, pratos à base de cogumelos, embutidos", "Austrália"),
 };
 
-// VALIDAÇÃO MAIORIDADE
 Console.WriteLine("W I N E    B A R");
 Console.WriteLine("");
 
+// VALIDAÇÃO MAIORIDADE
 Console.WriteLine("Bebidas álcóolicas são proíbidas para menores de 18 anos. Digite sua idade antes de prosseguir.");
 string input = Console.ReadLine();
 Console.WriteLine("");
@@ -35,11 +35,13 @@ else
 }
 
 
-// FILTRO
+// FILTRO DOS VINHOS
 Console.WriteLine("Digite um dos números a seguir para filtrar os vinhos por seus respectivos países: 0 [TODOS], 1 [ARGENTINA], 2 [PORTUGAL], 3 [ITÁLIA], 4 [CHILE], 5 [FRANÇA], 6 [AUSTRÁLIA]");
 string filtro = Console.ReadLine();
 Console.WriteLine("");
 
+
+// ESTRUTURA DE CONDIÇÃO
 switch (filtro)
 {
     case "0":
