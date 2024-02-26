@@ -11,7 +11,7 @@
     new("VINHO CHÂTEAU PAVIE 2016", 750, 13.5, "60% Merlot, 22% Cabernet Franc e 18% Cabernet Sauvignon", 8719.99, "Harmonização: Carnes vermelhas grelhadas e assadas, churrasco, cordeiro, pratos com cogumelos, massas com ragu de carne, embutidos e queijos duros", "França"),
     new("VINHO RENDEZ VOUS SAUVIGNON BLANC", 750, 11.5, "Sauvignon Blanc", 109.99, "Harmonização:  Entradas leves, como saladas, pescados e frutos do mar, como sashimi e ceviche, além de queijos de massa mole", "França"),
     new("VINHO ANGOVE FAMILY CREST MCLAREN VALE GSM", 750, 14.5, "42% Grenache, 34% Shiraz e 24% Mourvèdre", 239.99, "Harmonização: Carnes vermelhas grelhadas e assadas, churrasco, carnes de caça, massas com molho de tomate e queijos duros", "Austrália"),
-    new("INHO TWO HANDS SAMANTHA'S GARDEN CLARE VALLEY SHIRAZ", 750, 13.5, "Shiraz", 769.99, "Harmonização: Churrasco, carnes de caça, pratos à base de cogumelos, embutidos", "Austrália"),
+    new("VINHO TWO HANDS SAMANTHA'S GARDEN CLARE VALLEY SHIRAZ", 750, 13.5, "Shiraz", 769.99, "Harmonização: Churrasco, carnes de caça, pratos à base de cogumelos, embutidos", "Austrália"),
 };
 
 Console.WriteLine("W I N E    B A R");
